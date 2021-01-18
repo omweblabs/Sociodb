@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SocioDB | Your Community At Your Fingertips</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link href="css/socio_custom.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="profile-display-page">
+    <div class="container-fluid search-result">
+        <div class="row search-result-top-row">
+            <div class="search-result-logo">
+                <img src="images/SocioDB_final_logo.png" class="socio_db_logo">
+            </div>
+            <div class="big-screen-search-result-form">
+                <div class="search-result-page-search-form">
+                    <form action="/action_page.php" class="form-inline">
+                        <div class="search-result-form-group">
+                            <label class="search-result-page-label-effect">Show me</label>
+                            <input type="text" class="form-control showme-effect open-community-dropbox" id="showme1" name="showme" placeholder="Community Leaders, Organization etc." autocomplete="off">
+                            <div class="showme-box-result">
+                                <ul>
+                                    <li>Organization</li>
+                                    <li>Community Leaders</li>
+                                    <li>Community Members</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search-result-form-group">
+                            <label class="search-result-page-label-effect">In</label>
+                            <input type="text" class="form-control in-box open-country-dropbox" id="in1" name="in" placeholder="Location" autocomplete="off">
+                            <div class="in-box-result">
+                                <ul>
+                                    <li>Afghanistan</li>
+                                    <li>Albania</li>
+                                    <li>Algeria</li>
+                                    <li>Andorra</li>
+                                    <li>Argentina</li>
+                                    <li>Australia</li>
+                                    <li>Austria</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary search-result-page-search-button">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="search-right-upper-side">
+                <ul class="nav search-notifications-section">
+                    <li class="search-symbol search-blog-symbol">
+                        <img class="img-fluid" src="images/search-result/new-blog.svg" alt="blog-symbol"><a href="" class="notify "><span class="num">3</span></a>
+                    </li>
+                    <li class="search-symbol search-chat-symbol">
+                        <img class="img-fluid" src="images/search/message.svg" alt="chat-symbol"><a href="" class="notify "><span class="num">3</span></a>
+                    </li>
+                    <li class="search-notification-symbol">
+                        <img class="img-fluid" src="images/search-result/notification.svg" alt="notification-symbol"><a href="" class="notify"><span class="num">3</span></a>
+                    </li>
+                    <li class="profile-symbol">
+                        <img class="img-fluid" src="images/search/profile.png" alt="profile-symbol">
+                    </li>
+                </ul>
+                <div class="clear"></div>
+                <ul class="open-settings-dropdpwn">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Sign Out</a></li>
+                </ul>
+                <div class="open-latest-box latest-messages-box">
+                    <div class="open-latest-inner">
+                        <div class="open-latest-demo" data-simplebar>
+                            <div class="latest-messages-sections">
+                                <h3 class="latest-notifications-title">Latest Messages</h3>
+                                <div class="notifications-filtering-full-result following-start">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">John WIlliams <span class="unread-message">(Unread)</span></h3>
+                                        <p class="notifications-member-text">John Williams is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result following-start">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">Abagail Libbie <span class="unread-message">(Unread)</span></h3>
+                                        <p class="notifications-member-text">Babila Ebwele is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result following-start">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">Abagail Libbie <span class="unread-message">(Unread)</span></h3>
+                                        <p class="notifications-member-text">Abagail Libbie is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">John WIlliams</h3>
+                                        <p class="notifications-member-text">John Williams is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">John WIlliams</h3>
+                                        <p class="notifications-member-text">John Williams is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <button type="submit" class="btn btn-primary latest-all-notifications">See All Messages</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open-latest-box latest-notifications-box">
+                    <div class="open-latest-inner">
+                        <div class="open-latest-demo" data-simplebar>
+                            <div class="latest-notifications-sections">
+                                <h3 class="latest-notifications-title">Latest Notifications</h3>
+                                <div class="notifications-filtering-full-result following-start">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">John WIlliams</h3>
+                                        <p class="notifications-member-text">John Williams is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                        <p class="notify-time">12.44</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result following-start">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">Abagail Libbie</h3>
+                                        <p class="notifications-member-text">Babila Ebwele is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                        <p class="notify-time">12.44</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result following-start">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">Abagail Libbie</h3>
+                                        <p class="notifications-member-text">Abagail Libbie is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                        <p class="notify-time">12.44</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">John WIlliams</h3>
+                                        <p class="notifications-member-text">John Williams is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                        <p class="notify-time">12.44</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="notifications-filtering-full-result">
+                                    <div class="latest-notifications-member-pic">
+                                        <img src="images/search/profile.png">
+                                    </div>
+                                    <div class="noitify-member-bio">
+                                        <h3 class="notify-member-name">John WIlliams</h3>
+                                        <p class="notifications-member-text">John Williams is now following you</p>
+                                    </div>
+                                    <div class="member-notify-date">
+                                        <p class="notify-date">Nov 10</p>
+                                        <p class="notify-time">12.44</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <button type="submit" class="btn btn-primary latest-all-notifications">See All Notifications</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="small-devices-search-form">
+                    <div class="search-result-page-search-form">
+                        <form action="/action_page.php">
+                            <div class="search-result-form-group">
+                                <label class="search-result-page-label-effect">Show me</label>
+                                <input type="text" class="form-control showme-effect open-community-dropbox" id="showme" name="showme" placeholder="Community Leaders, Organization etc." autocomplete="off">
+                                <div class="showme-box-result">
+                                    <ul>
+                                        <li>Organization</li>
+                                        <li>Community Leaders</li>
+                                        <li>Community Members</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="search-result-form-group">
+                                <label class="search-result-page-label-effect">In</label>
+                                <input type="text" class="form-control in-box open-country-dropbox" id="in" name="in" placeholder="Location" autocomplete="off">
+                                <div class="in-box-result">
+                                    <ul>
+                                        <li>Afghanistan</li>
+                                        <li>Albania</li>
+                                        <li>Algeria</li>
+                                        <li>Andorra</li>
+                                        <li>Argentina</li>
+                                        <li>Australia</li>
+                                        <li>Austria</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <button type="submit" class="btn btn-primary search-result-page-search-button">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="profile-details">
+                    <div class="profile-people-name">
+                        <h3 class="search-result-title">
+                            <img class="img-fluid search-result-title-left-arrow" src="images/search-result/left-arrow.png">Add Organization
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-lg-2">
+                            <div class="profile-page-left-part">
+                                <form action="" class="full-profile-pic-form">
+                                    <div class="people-profile-pic-section">
+                                        <input type="file" class="custom-file-input" id="customFile">
+                                        <label class="people-profile-pic" for="customFile">
+                                            <img src="images/add-organization/building.png" alt="people-profile-pic">
+                                        </label>
+                                    </div>
+                                </form>
+                                <div class="pro-pic-bottom-link-section">
+                                    <a href="#">Add Organization Name</a>
+                                </div>
+                                <div class="pro-pic-bottom-link-section">
+                                    <a href="javascript:void(0);" data-toggle="modal" data-target="#addWeblinks">Add Social Links</a>
+                                </div>
+                                <div class="pro-pic-bottom-link-section">
+                                    <a href="#">Add Contact Number</a>
+                                </div>
+                                <div class="pro-pic-bottom-link-section">
+                                    <a href="#">Add Working Hours</a>
+                                </div>
+                                <div class="pro-pic-bottom-link-section">
+                                    <a href="javascript:void(0);" data-toggle="modal" data-target="#addevent">Add Event</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-lg-10">
+                            <div class="profile-page-right-part">
+                                <div class="verify-profile-section">
+                                    <a class="submit-organization" href="#">Submit</a>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="people-profile-different-section">
+                                    <div class="people-common-profile">
+                                        <div class="common-profile-heading-section">
+                                            <h3 class="common-profile-title about-title">About</h3>
+                                        </div>
+                                        <div class="common-profile-text-section">
+                                            <form action="">
+                                                <div class="form-group feed-about-text">
+                                                    <textarea name="message" class="about-add-text" placeholder="Write Here"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="people-common-profile">
+                                        <div class="common-profile-heading-section">
+                                            <h3 class="common-profile-title location-title">Location <a href="#" class="add-location">Add Location</a></h3>
+                                        </div>
+                                        <div class="common-profile-text-section"><p></p></div>
+                                    </div>
+                                    <div class="people-common-profile">
+                                        <div class="common-profile-heading-section">
+                                            <h3 class="common-profile-title tag-title">Causes</h3>
+                                        </div>
+                                        <div class="common-profile-tag-section">
+                                            <ul class="common-profile-tags">
+                                                <li class="add-tags-list"><a href="#" class="add-tags">Add Tags</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="people-common-profile">
+                                        <div class="common-profile-heading-section">
+                                            <h3 class="common-profile-title connection-title">Program Offering <a href="#" class="add-location">Add</a></h3>
+                                        </div>
+                                        <div class="common-profile-text-section">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <div class="people-common-profile">
+                                        <div class="common-profile-heading-section">
+                                            <h3 class="common-profile-title volunteering-title">Community Leaders <a href="#" class="add-location">Add</a></h3>
+                                        </div>
+                                        <div class="common-profile-text-section"><p></p></div>
+                                    </div>
+                                    <div class="people-common-profile">
+                                        <div class="common-profile-heading-section">
+                                            <h3 class="common-profile-title volunteering-title">Volunteer Needs <a href="#" class="add-location">Add Events</a></h3>
+                                        </div>
+                                        <div class="common-profile-text-section"><P></P></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--------------------------------------Difference-modal---------------------------------->
+        <!-----------------------Profile-Web-links-modal------------------->
+        <div class="modal fade" id="addWeblinks">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Your Web links</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <form action="#" class="add-socialmedia-form">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="fb">Facebook</label>
+                                <input type="text" class="form-control" id="fb" placeholder="https://">
+                            </div>
+                            <div class="form-group">
+                                <label for="tw">Twitter</label>
+                                <input type="text" class="form-control" id="tw" placeholder="https://">
+                            </div>
+                            <div class="form-group">
+                                <label for="ln">LinkedIn</label>
+                                <input type="text" class="form-control" id="ln" placeholder="https://">
+                            </div>
+                            <div class="form-group">
+                                <label for="instra">Instagram</label>
+                                <input type="text" class="form-control" id="instra" placeholder="https://">
+                            </div>
+                            <div class="form-group">
+                                <label for="web">Website</label>
+                                <input type="text" class="form-control" id="web" placeholder="https://">
+                            </div>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer save-link-button-footer">
+                            <button type="button" class="btn submit-modal-button" data-toggle="modal" data-target="#referralSuccess">Save Links</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------Add-Event-Modal-------------------------------------->
+        <div class="modal fade" id="addevent">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add Event</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <form action="#" class="add-socialmedia-form">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="event-name">Event Name</label>
+                                <input type="text" class="form-control" id="event-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Description</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="half-date">
+                                    <label for="date">Date</label>
+                                    <input type="date" class="form-control" id="date">
+                                </div>
+                                <div class="half-date">
+                                    <label for="time">time</label>
+                                    <input type="time" class="form-control" id="time">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="location">Location</label>
+                                <textarea class="form-control" rows="5" id="location"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="volunter-need">Volunter Needed</label>
+                                <input type="text" class="form-control" id="volunter-need">
+                            </div>
+                            <div class="vlo-needed-section">
+                                <div>
+                                    <label>Do you want to repeat the Event?</label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="" checked>Repeat
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-calendar-section">
+                                <div id='calendar'></div>
+                            </div>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn submit-modal-button">Done</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.scrolly.min.js" type="text/javascript"></script>
+    <script src="js/skel.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/socio_custom_script.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.js"></script>
+    <script src="js/modal-calendar-script.js" type="text/javascript"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            /*------------------initialize the calendar-----------------------------------------------------------------*/
+            var calendar =  $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev',
+                    center: 'title',
+                    right: 'next'
+                },
+                editable: true,
+                firstDay: 1, //  1(Monday) this can be changed to 0(Sunday) for the USA system
+                selectable: true,
+                defaultView: 'month',
+
+                axisFormat: 'h:mm',
+                columnFormat: {
+                    month: 'ddd',    // Mon
+                    week: 'ddd d', // Mon 7
+                    day: 'dddd M/d',  // Monday 9/7
+                    agendaDay: 'dddd d'
+                },
+                titleFormat: {
+                    month: 'MMMM yyyy', // September 2009
+                    week: "MMMM yyyy", // September 2009
+                    day: 'MMMM yyyy'                  // Tuesday, Sep 8, 2009
+                },
+                allDaySlot: false,
+                selectHelper: true,
+                select: function(start, end, allDay) {
+                    var title = prompt('Event Title:');
+                    if (title) {
+                        calendar.fullCalendar('renderEvent',
+                                {
+                                    title: title,
+                                    start: start,
+                                    end: end,
+                                    allDay: allDay
+                                },
+                                true // make the event "stick"
+                        );
+                    }
+                    calendar.fullCalendar('unselect');
+                },
+                droppable: true, // this allows things to be dropped onto the calendar !!!
+                drop: function(date, allDay) { // this function is called when something is dropped
+
+                    // retrieve the dropped element's stored Event Object
+                    var originalEventObject = $(this).data('eventObject');
+
+                    // we need to copy it, so that multiple events don't have a reference to the same object
+                    var copiedEventObject = $.extend({}, originalEventObject);
+
+                    // assign it the date that was reported
+                    copiedEventObject.start = date;
+                    copiedEventObject.allDay = allDay;
+
+                    // render the event on the calendar
+                    // the last `true` argument determines if the event "sticks" (http://arshaw.com/fullcalendar/docs/event_rendering/renderEvent/)
+                    $('#calendar').fullCalendar('renderEvent', copiedEventObject, true);
+
+                    // is the "remove after drop" checkbox checked?
+                    if ($('#drop-remove').is(':checked')) {
+                        // if so, remove the element from the "Draggable Events" list
+                        $(this).remove();
+                    }
+
+                },
+            });
+            jQuery('#addevent').on('shown.bs.modal', function () {
+                jQuery("#addevent #calendar").fullCalendar('render');
+            });
+        });
+
+
+    </script>
+</footer>
+</html>

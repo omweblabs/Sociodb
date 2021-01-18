@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Version2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="member-profile-edit" transform="translate(-293.000000, -1093.000000)" fill="#FFFFFF">
+            <g id="Group-11" transform="translate(280.000000, 1083.000000)">
+                <path d="M18.9998561,26 C18.6962087,26 18.4052253,25.8809651 18.1908014,25.669316 L9.33523533,16.9277823 C8.88825489,16.4865863 8.88825489,15.7715249 9.33523533,15.330897 C9.78221576,14.889701 10.5063644,14.889701 10.9533448,15.330897 L18.9998561,23.2735619 L27.0466552,15.330897 C27.4936356,14.889701 28.2177842,14.889701 28.6647647,15.330897 C29.1117451,15.771809 29.1117451,16.4865863 28.6647647,16.9277823 L19.808623,25.669316 C19.594199,25.8809651 19.3032156,26 18.9998561,26" id="arrow-right" transform="translate(19.000000, 20.500000) rotate(-270.000000) translate(-19.000000, -20.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

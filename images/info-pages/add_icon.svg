@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Add/icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Version2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about" transform="translate(-897.000000, -892.000000)" fill="#505A83">
+            <g id="add-organization" transform="translate(780.000000, 844.000000)">
+                <g id="Group-16" transform="translate(117.000000, 45.000000)">
+                    <g id="Add/icon" transform="translate(0.000000, 3.000000)">
+                        <path d="M13.2,10.8 L23,10.8 C23.5522847,10.8 24,11.2477153 24,11.8 L24,12.2 C24,12.7522847 23.5522847,13.2 23,13.2 L13.2,13.2 L13.2,23 C13.2,23.5522847 12.7522847,24 12.2,24 L11.8,24 C11.2477153,24 10.8,23.5522847 10.8,23 L10.8,13.2 L1,13.2 C0.44771525,13.2 0,12.7522847 0,12.2 L0,11.8 C0,11.2477153 0.44771525,10.8 1,10.8 L10.8,10.8 L10.8,1 C10.8,0.44771525 11.2477153,1.01453063e-16 11.8,0 L12.2,0 C12.7522847,-1.01453063e-16 13.2,0.44771525 13.2,1 L13.2,10.8 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
